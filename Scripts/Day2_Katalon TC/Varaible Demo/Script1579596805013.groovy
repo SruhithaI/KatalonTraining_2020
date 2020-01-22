@@ -17,3 +17,5 @@ def name = 'Automation'
 
 println('The name is ' + name)
 
+WebUI.setText(findTestObject(null), '')
+
